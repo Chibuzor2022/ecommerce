@@ -36,6 +36,17 @@ border: 1px solid white;
 }
 
 
+ul{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  color: black;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
 .cta_btn{
   background-color: black;
   color: white;
@@ -46,17 +57,6 @@ border: 1px solid white;
   font-size: 17px;
   margin-bottom: 30px;
 
-}
-
-ul{
-  display: flex;
-  gap: 30px;
-  list-style: none;
-  color: black;
-}
-a{
-  text-decoration: none;
-  color: black;
 }
 
 .hero_title{
@@ -79,6 +79,7 @@ a{
 img{
   max-width: 100%;
   height: 100%;
+
 }
 
 @media screen and (max-width:768px) {
