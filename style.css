@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  font-family: "Poppins", serif;
+  margin: 0;
+  padding: 0;
+
+}
+body{
+ 
+  color: black;
+  text-align: center;
+  padding: 10px;
+  max-width: 1200px;
+  margin: auto;
+}
+.navbar{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+      margin: 20px ;
+
+}
+
+.nav_logo{
+font-size: 40px;
+}
+
+.nav_btn{
+color: white;
+padding: 10px 30px;
+background-color: blue;
+border-radius: 50px;
+border: 1px solid white;
+}
+
+
+.cta_btn{
+  background-color: black;
+  color: white;
+  padding: 35px 125px;
+  border-radius: 100px;
+  cursor: pointer;
+  border: none;
+  font-size: 17px;
+  margin-bottom: 30px;
+
+}
+
+ul{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  color: black;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.hero_title{
+  font-size: 3.3rem;
+  font-weight: 600;
+}
+
+.hero_desc{
+  padding:20px;
+  max-width: 550px;
+  margin: auto;
+}
+
+.hero_grid{
+
+  display: flex;
+  gap: 20px;
+}
+
+img{
+  max-width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width:768px) {
+  
+  
+  .navbar, ul {
+    display: flex;
+    flex-direction:column;
+    justify-content: left;
+    gap: 20px;
+    
+  }
+
+  .hero_grid{
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
